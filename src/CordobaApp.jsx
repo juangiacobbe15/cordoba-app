@@ -1,7 +1,9 @@
+import { HomePage } from "./pages/HomePage";
+
 export const CordobaApp = () => {
     return (
-        <>
-            <h1>Hello world</h1>
-        </>
+        <main className="main-container">
+            <HomePage />
+        </main>
     );
 }
